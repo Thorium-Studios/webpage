@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
@@ -49,16 +50,19 @@ export default function Homepage() {
           <h2 class="mb-2">Some of Our Work</h2>
           <div class="row gap-2">
             <div class="col-12-xs col-6-md col-3-lg">
-              <div class="card p-0">
-                <h3 class="card-title m-1">
-                  Webpage <span class="badge-orange text-white ml-1">new</span>
-                </h3>
-                <img src="/img/webpage.png" alt="" />
-                <p class="m-1">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Totam, hic!
-                </p>
-              </div>
+              <Link to="/projects/webpage">
+                <div class="card p-0">
+                  <h3 class="card-title m-1">
+                    Webpage{" "}
+                    <span class="badge-orange text-white ml-1">new</span>
+                  </h3>
+                  <img src="/img/webpage.png" alt="" />
+                  <p class="m-1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Totam, hic!
+                  </p>
+                </div>
+              </Link>
             </div>
             <div class="col-12-xs col-6-md col-3-lg">
               <div class="card p-0">
@@ -92,7 +96,9 @@ export default function Homepage() {
             </div>
           </div>
           <div class="row justify-center mt-2">
-            <button class="btn-primary text-white font-md">View All</button>
+            <Link to="/projects">
+              <button class="btn-primary text-white font-md">View All</button>
+            </Link>
           </div>
         </div>
       </section>
