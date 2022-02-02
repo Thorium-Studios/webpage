@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Pages and components imports
 import SiteHeader from "./components/SiteHeader";
+import SiteFooter from "./components/SiteFooter";
 import Homepage from "./pages/Homepage";
 import OurTeam from "./pages/OurTeam";
 import Projects from "./pages/Projects";
-import TestPage from "./pages/TestPage";
 
 function App() {
   return (
@@ -25,11 +25,8 @@ function App() {
           <Route path="/projects">
             <Projects />
           </Route>
-          {/* Test page route */}
-          <Route path="/test">
-            <TestPage />
-          </Route>
         </Switch>
+        <SiteFooter />
       </div>
     </Router>
   );
