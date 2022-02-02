@@ -25,7 +25,7 @@ export default function OurTeam() {
                 <div class="card p-0 bg-secondary-dark-5 text-white">
                   <center>
                     <h3 class="card-title m-1">Syco</h3>
-                    <img src="/img/team/Syco2.png" alt="" />
+                    <img src="/img/team/Syco.png" alt="" />
                     <p class="m-1">Director of Design</p>
                   </center>
                 </div>
@@ -37,7 +37,7 @@ export default function OurTeam() {
                 <div class="card p-0 bg-secondary-dark-5 text-white">
                   <center>
                     <h3 class="card-title m-1">Stratigan</h3>
-                    <img src="/img/team/Stratigan2.png" alt="" />
+                    <img src="/img/team/Stratigan.png" alt="" />
                     <p class="m-1">Director of Marketing</p>
                   </center>
                 </div>
