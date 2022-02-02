@@ -12,7 +12,7 @@ export default function Homepage() {
               <div class="font-xxl text-secondary">Elementary</div>
             </h2>
             <p class="text-gray mt-2 mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Best dev studio on the periodic table
             </p>
             <a
               href="#work"

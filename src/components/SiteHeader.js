@@ -16,6 +16,9 @@ export default function SiteHeader() {
             <li class="ml-2 text-hover-secondary">
               <Link to="our-team">Our Team</Link>
             </li>
+            <li className="ml-2 text-hover-secondary">
+              <a href="https://discord.gg/wFJHDYWuQr">Discord</a>
+            </li>
           </ul>
         </div>
       </nav>
