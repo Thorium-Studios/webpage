@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <div>
-      <section id="projects" class="mt-5">
+      <section id="work" class="mt-5">
         <div class="container">
           <h2 class="mb-2">Our Projects</h2>
           <div class="row gap-2">
@@ -16,42 +16,9 @@ export default function Projects() {
                     <span class="badge-orange text-white ml-1">new</span>
                   </h3>
                   <img src="/img/webpage.png" alt="" />
-                  <p class="m-1">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Totam, hic!
-                  </p>
+                  <p class="m-1">This very website! Made with ReactJS</p>
                 </div>
               </Link>
-            </div>
-            <div class="col-12-xs col-6-md col-3-lg">
-              <div class="card p-0">
-                <h3 class="card-title m-1">Thorium Recipes</h3>
-                <img src="/img/food.png" alt="" />
-                <p class="m-1">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Totam, hic!
-                </p>
-              </div>
-            </div>
-            <div class="col-12-xs col-6-md col-3-lg">
-              <div class="card p-0">
-                <h3 class="card-title m-1">Mario Club</h3>
-                <img src="/img/mario.png" alt="" />
-                <p class="m-1">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Totam, hic!
-                </p>
-              </div>
-            </div>
-            <div class="col-12-xs col-6-md col-3-lg">
-              <div class="card p-0">
-                <h3 class="card-title m-1">Thorium Things</h3>
-                <img src="/img/notes.png" alt="" />
-                <p class="m-1">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Totam, hic!
-                </p>
-              </div>
             </div>
           </div>
         </div>
