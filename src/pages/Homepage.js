@@ -51,10 +51,9 @@ export default function Homepage() {
             <div class="col-12-xs col-6-md col-3-lg">
               <div class="card p-0">
                 <h3 class="card-title m-1">
-                  Mario Club{" "}
-                  <span class="badge-orange text-white ml-1">new</span>
+                  Webpage <span class="badge-orange text-white ml-1">new</span>
                 </h3>
-                <img src="/img/mario.png" alt="" />
+                <img src="/img/webpage.png" alt="" />
                 <p class="m-1">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Totam, hic!
@@ -73,8 +72,8 @@ export default function Homepage() {
             </div>
             <div class="col-12-xs col-6-md col-3-lg">
               <div class="card p-0">
-                <h3 class="card-title m-1">Just Add Marmite</h3>
-                <img src="/img/marmite.png" alt="" />
+                <h3 class="card-title m-1">Mario Club</h3>
+                <img src="/img/mario.png" alt="" />
                 <p class="m-1">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Totam, hic!

@@ -7,6 +7,9 @@ import Homepage from "./pages/Homepage";
 import OurTeam from "./pages/OurTeam";
 import Projects from "./pages/Projects";
 
+// Import Project pages
+import Webpage from "./pages/Projects/Webpage";
+
 function App() {
   return (
     <Router>
@@ -22,8 +25,12 @@ function App() {
             <OurTeam />
           </Route>
           {/* Project list route */}
-          <Route path="/projects">
+          <Route exact path="/projects">
             <Projects />
+          </Route>
+          {/* Individual projects route */}
+          <Route path="/projects/webpage">
+            <Webpage />
           </Route>
         </Switch>
         <SiteFooter />
