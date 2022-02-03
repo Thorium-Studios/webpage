@@ -5,7 +5,6 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [success, setSuccess] = useState(false);
 
   const submit = () => {
     if (name && email && message) {
@@ -42,36 +41,54 @@ const Contact = () => {
       setName("");
       setEmail("");
       setMessage("");
-      setSuccess(true);
     } else {
       alert("Please fill in all fields.");
     }
   };
 
   return (
-    <div id="contact-form">
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        placeholder="Your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button onClick={submit}>Send Message</button>
-
-      <span className={success ? "visible" : null}>
-        Thank you for your message, we will be in touch in no time!
-      </span>
+    <div className="container mt-5">
+      <center>
+        <h1>Reach out to us!</h1>
+      </center>
+      <div className="row gap-2 justify-center">
+        <div className="col-12-xs col-6-md col-6-lg">
+          <center>
+            <div id="contact-form">
+              <input
+                className="p-2 m-2 btn-outlined-secondary"
+                type="text"
+                placeholder="Your Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+              <input
+                className="p-2 m-2 btn-outlined-secondary"
+                type="email"
+                placeholder="Your email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <div className="row gap-2 justify-center">
+                <div className="col-12-xs col-12-md col-12-lg">
+                  <textarea
+                    className="p-2 m-2 btn-outlined-secondary"
+                    placeholder="Your message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                className="btn-primary text-white font-md p-2 m-2"
+                onClick={submit}
+              >
+                Send Message
+              </button>
+            </div>
+          </center>
+        </div>
+      </div>
     </div>
   );
 };
