@@ -19,6 +19,9 @@ export default function SiteHeader() {
             <li className="ml-2 text-hover-secondary">
               <a href="https://discord.gg/wFJHDYWuQr">Discord</a>
             </li>
+            <li className="ml-2 text-hover-secondary">
+              <Link to="contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </nav>
