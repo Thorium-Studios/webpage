@@ -11,6 +11,10 @@ import Projects from "./pages/Projects";
 // Import Project pages
 import Webpage from "./pages/Projects/Webpage";
 
+// Ras Project
+import Ras from "./pages/Projects/Ras/Ras";
+import PlayRas from "./pages/Projects/Ras/PlayRas";
+
 function App() {
   return (
     <Router>
@@ -34,8 +38,13 @@ function App() {
             <Projects />
           </Route>
           {/* Individual projects route */}
-          <Route path="/projects/webpage">
-            <Webpage />
+
+          {/* Ras routes */}
+          <Route exact path="/projects/ras">
+            <Ras />
+          </Route>
+          <Route exact path="/projects/ras/play">
+            <PlayRas />
           </Route>
         </Switch>
         <SiteFooter />
