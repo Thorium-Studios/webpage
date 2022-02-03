@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
 import Homepage from "./pages/Homepage";
+import Contact from "./pages/Contact";
 import OurTeam from "./pages/OurTeam";
 import Projects from "./pages/Projects";
 
@@ -19,6 +20,10 @@ function App() {
           {/* Home route */}
           <Route exact path="/">
             <Homepage />
+          </Route>
+          {/* ContactForm route */}
+          <Route path="/contact">
+            <Contact />
           </Route>
           {/* OurTeam route */}
           <Route path="/our-team">
