@@ -40,7 +40,7 @@ export default function Projects() {
                     Project 210 <span class="badge-orange text-white ml-1">new</span>
                   </h3>
                   <center>
-                    <img src="/img/ras.png" alt="" />
+                    <img src="/img/projects/210.png" alt="" />
                   </center>
                   <p class="m-1">Breakout clone made in Pico-8</p>
                 </div>
