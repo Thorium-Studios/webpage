@@ -21,16 +21,12 @@ function App() {
       <div className="App">
         <SiteHeader />
         <Switch>
-          {/* Home route */}
-          <Route exact path="/">
-            <Homepage />
-          </Route>
           {/* ContactForm route */}
           <Route path="/contact">
             <Contact />
           </Route>
           {/* OurTeam route */}
-          <Route path="/our-team">
+          <Route exact path="/our-team">
             <OurTeam />
           </Route>
           {/* Project list route */}
@@ -45,6 +41,10 @@ function App() {
           </Route>
           <Route exact path="/projects/ras/play">
             <PlayRas />
+          </Route>
+          {/* Home route */}
+          <Route path="/">
+            <Homepage />
           </Route>
         </Switch>
         <SiteFooter />
