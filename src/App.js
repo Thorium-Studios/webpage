@@ -15,6 +15,9 @@ import Webpage from "./pages/Projects/Webpage";
 import Ras from "./pages/Projects/Ras/Ras";
 import PlayRas from "./pages/Projects/Ras/PlayRas";
 
+// Project 210
+import Project210 from "./pages/Projects/Project210";
+
 function App() {
   return (
     <Router>
@@ -42,6 +45,12 @@ function App() {
           <Route exact path="/projects/ras/play">
             <PlayRas />
           </Route>
+
+          {/* 210 routes */}
+          <Route exact path="/projects/210">
+            <Project210 />
+          </Route>
+
           {/* Home route */}
           <Route path="/">
             <Homepage />
