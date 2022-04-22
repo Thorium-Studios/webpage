@@ -64,7 +64,7 @@ export default function Homepage() {
               <Link to="projects/ras">
                 <div class="card p-0">
                   <h3 class="card-title m-1">
-                    Rás <span class="badge-orange text-white ml-1">new</span>
+                    Rás
                   </h3>
                   <center>
                     <img src="/img/ras.png" alt="" />
@@ -74,11 +74,15 @@ export default function Homepage() {
               </Link>
             </div>
             <div class="col-12-xs col-6-md col-3-lg">
+              <Link to="projects/210">
               <div class="card p-0">
-                <h3 class="card-title m-1">Coming Soon...</h3>
-                <img src="/img/comingsoon.png" alt="" />
-                <p class="m-1">Project to be added</p>
+                <h3 class="card-title m-1">
+                  Project 210 <span class="badge-orange text-white ml-1">new</span>
+                </h3>
+                <img src="/img/projects/210.png" alt="" />
+                <p class="m-1">Breakout clone made in Pico-8</p>
               </div>
+              </Link>
             </div>
             <div class="col-12-xs col-6-md col-3-lg">
               <div class="card p-0">
