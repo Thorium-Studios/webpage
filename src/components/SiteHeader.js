@@ -14,13 +14,13 @@ export default function SiteHeader() {
               <Link to="/projects">Projects</Link>
             </li>
             <li class="ml-2 text-hover-secondary">
-              <Link to="our-team">Our Team</Link>
+              <Link to="/our-team">Our Team</Link>
             </li>
             <li className="ml-2 text-hover-secondary">
               <a href="https://discord.gg/wFJHDYWuQr">Discord</a>
             </li>
             <li className="ml-2 text-hover-secondary">
-              <Link to="contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
